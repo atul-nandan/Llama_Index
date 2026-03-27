@@ -1,0 +1,30 @@
+# Core
+python-dotenv==1.0.1
+# pydantic==2.7.4
+ 
+# # Streamlit UI
+# streamlit==1.32.2
+ 
+# # Backend
+# fastapi==0.110.0
+# uvicorn==0.29.0
+# websockets==12.0
+ 
+# LlamaIndex (LOCKED for stability)
+llama-index
+llama-index-core
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+
+llama-index-tools-tavily-research
+ 
+# # Embeddings
+# sentence-transformers==2.7.0
+# transformers==4.41.2
+# torch
+ 
+# # Async fix for Streamlit
+# nest-asyncio==1.6.0
+ 
+# # PDF generation
+# reportlab==4.2.0
