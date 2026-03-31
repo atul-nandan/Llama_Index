@@ -44,7 +44,23 @@ Think of Context as: a communication channel to the outside world.
 ```
 For More Please checkout: [ 5_Context.md ](5_Context.md)
 
+**🔥 What is write_event_to_stream?**
+```
+=>  It is a method that lets your workflow send intermediate updates (events) to a stream while execution is still happening.
 
+=>  Think of it as: “Send progress updates or partial outputs to the user before the workflow finishes.”
+    Instead of waiting for the final response, you can stream information step-by-step.
+```
+**🧠 Why do we use write_event_to_stream?**
+```
+Real-time streaming output =>    You can stream tokens, messages, or progress updates.
+Example:
+    Agent starts reasoning
+    Tool gets called
+    Retrieval happens
+    Final answer generated
+
+```
 **📡 Sending Streaming Updates**
 ```
 Inside a step:
