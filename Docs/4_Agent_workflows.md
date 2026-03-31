@@ -327,6 +327,9 @@ To allow steps to share information, workflows provide a state store automatical
 This shared memory is accessed using:
 Context → ctx.store
 ```
+For More Please checkout: [ 5_Context.md ](5_Context.md)
+
+
 **Terms of Managing State**
 ```
     Workflow → defines workflow
