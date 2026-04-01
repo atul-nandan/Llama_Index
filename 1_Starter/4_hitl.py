@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
 What is HITL ?
 => Human In The Loop
-=> It Talks about involvement of human at a particular Step, where ai cant take decision on its own
+=> It Talks about involvement of human at a particular Step, where AI cant take decision on its own
 => Imagine an AI writing an email:
         AI drafts the email
         It pauses and asks: “Should I send this?”
